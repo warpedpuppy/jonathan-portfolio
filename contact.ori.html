@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CONTACT</title>
+		<link rel="shortcut icon" 
+		 	alt="Custom Favicon"
+		 	href="img/favicon.ico">
+	</head>
+	
+	<body>
+
+		<!--**********
+			* HEADER *
+			**********-->
+		<header>
+			<table align = "left">
+				<tr>
+					<td"><img src="img/logo.png" alt="logo" ></td>
+				</tr>
+			</table>
+			<table align = "right">
+				<td>
+					<a href="index.html">Home</a>
+					<a href="about.html">About me</a>
+					<a href="contact.html">Contact</a>
+				</td>
+			</table>
+		</header>
+		
+		<!--********
+			* MAIN *
+			********-->		
+		<form action="" method="post" id="contact-form">
+			<label class="standard-label" for="contact-email">E-mail: </label>
+			<input type="email" id="contact-email" required>
+
+			<label class="standard-label" for="contact-phone">Telephone: </label>
+			<input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+			<label class="standard-label" for="contact-message">Message: </label>
+			<textarea maxlength="240" id="contact-message" required></textarea>
+
+			<input type="submit" value="Send message">
+		</form>
+		
+		<!--**********
+			* footer *
+			**********-->
+		<footer>
+			<table align = "center">
+				<tr>
+					<td>Find me on</td>
+				</tr>
+			</table>
+			<table align = "center" cellpadding = "15">
+				<tr>
+					<!-- Github logo -->
+					<td>
+						<img src="img/iconfinder_github-social-media_765246.svg" alt="github" height = "30" width = "30">
+					</td>
+					
+					<!-- Twitter logo -->
+					<td>
+						<img src="img/iconfinder_BW_Twitter_glyph_svg_5305170.svg" alt="twitter" height = "30" width = "30">
+					</td>
+											
+					<!-- LinkedIn logo -->
+					<td>
+						<img src="img/iconfinder_linkedin-social-media_765228.svg" alt="linkedin" height = "30" width = "30">
+					</td>
+				</tr>
+			</table>
+		</footer>
+		
+		<!--***********
+			* Scripts *
+			***********-->
+		<script src="js/tota11y.min.js"></script>
+	</body>
+</html>

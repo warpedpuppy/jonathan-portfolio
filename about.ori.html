@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ABOUT</title>		
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	
+	<body>
+	
+		<!--**********
+			* HEADER *
+			**********-->
+		<header>
+			<table align="center" width="100%"> <!--border="5"-->
+				<tr>
+					<td>
+							<img src="img/logo.png" alt="logo">
+					</td>
+					<td>
+						<nav>
+							<table align="right"> <!--border="5"-->
+								<tr>
+									<td>
+										<a href="index.html">Home</a>
+										<a href="about.html">About</a>
+										<a href="contact.html">Contact</a>
+									</td>
+								</tr>
+							</table>
+						</nav>
+					</td>
+				</tr>
+			</table>
+		</header>
+
+		<!--********
+			* MAIN *
+			********-->
+ 		<form action="/login-form-action" method="post" id="contact-form">
+			<table align="center" cellspacing="5">
+				<tr>
+					<td><label class="standard-label">Email: *</label></td>
+					<td><input type="email" required></td>
+				</tr> 
+				<tr>
+					<td><label class="standard-label">Telephone: </label></td>
+					<td><input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"></td>
+				</tr> 
+				<tr>
+					<td>
+						<label class="standard-label">Message: *<br>
+						(maximum 240 characters)</label>
+					</td>
+					<td>
+						<textarea maxlength="240" required></textarea>
+					</td>
+				</tr> 
+				<tr>
+					<td>
+						<input type="submit" value="Send message">
+					</td>
+				</tr> 
+			</table>
+		</form>
+		<form action="" method="post" id="contact-form">
+			<label class="standard-label">Email: </label>
+			<input type="email" required><br>
+
+			<label class="standard-label">Telephone: </label>
+			<input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+			<label class="standard-label">Message: </label>
+			<textarea required maxlength="240"></textarea>
+			<input type="submit" value="Send message"><br>
+		</form>
+		<!--**********
+			* footer *
+			**********-->
+		<footer>
+			<table align="center" cellspacing="5">
+				<tr>
+					<td><br><td>
+				</tr>
+				<tr>
+					<td>Find me on</td>
+				</tr>
+			</table>
+			<table align="center" cellpadding="15">
+				<tr>
+					<!-- Github logo -->
+					<td>
+						<img src="img/iconfinder_github-social-media_765246.svg" 
+							alt="github" height="30" width="30">
+					</td>
+					
+					<!-- Twitter logo -->
+					<td>
+						<img src="img/iconfinder_BW_Twitter_glyph_svg_5305170.svg"
+							alt="twitter" height="30" width="30">
+					</td>
+											
+					<!-- LinkedIn logo -->
+					<td>
+						<img src="img/iconfinder_linkedin-social-media_765228.svg"
+							alt="linkedin" height="30" width="30">
+					</td>
+				</tr>
+			</table>
+		</footer>
+		
+		<!--***********
+			* Scripts *
+			***********-->
+		<script src="js/tota11y.min.js"></script>
+	</body>
+</html>
